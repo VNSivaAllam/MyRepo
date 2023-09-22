@@ -27,7 +27,35 @@
 .App-link {
   color: #61dafb;
 }
-
+.box {
+  /* position: absolute; */
+  margin-top: 30px;
+  cursor: move;
+  color: black;
+  width: 250px;height: 250px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 1em;
+  margin: auto;
+  user-select: none;
+}
+.small-card{
+  border:1px solid grey;
+   width:80px; 
+   height:60px;
+   margin:15px;
+   background-color: grey;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  
+  .box{
+    width: 200px;
+    font-size: 12px;
+  }
+.small-card{
+  width:60px; 
+}
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
