@@ -139,6 +139,7 @@ function PlugXR() {
       <p className="small-card">Column 3</p>        
     </div>
   </div>
+  
             </Resizable>
           </Col>
         </Row>
